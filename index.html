@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name — Digital Card</title>
+  <title>Chase Skouge — Digital Card</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -19,18 +19,18 @@
       background: white;
       border-radius: 20px;
       padding: 40px 30px;
-      max-width: 360px;
+      max-width: 400px;
       width: 100%;
       text-align: center;
       box-shadow: 0 20px 60px rgba(0,0,0,0.2);
     }
     .card img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
+      width: 100%;
+      max-width: 330px;
+      height: auto;
+      border-radius: 12px;
       object-fit: cover;
-      border: 4px solid #667eea;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
     }
     .card h1 { font-size: 1.5rem; margin-bottom: 4px; }
     .card p  { color: #666; margin-bottom: 24px; }
@@ -44,8 +44,8 @@
       transition: 0.2s;
     }
     .links a.linkedin  { background: #0a66c2; color: white; }
-    .links a.github    { background: #24292e; color: white; }
-    .links a.website   { background: #667eea; color: white; }
+    .links a.bluesky    { background: #24292e; color: white; }
+    .links a.substack   { background: #667eea; color: white; }
     .links a.email     { background: #ea4335; color: white; }
     .links a:hover     { transform: translateY(-2px); opacity: 0.9; }
   </style>
@@ -53,13 +53,13 @@
 <body>
   <div class="card">
     <img src="https://raw.githubusercontent.com/Envirochaz/tesr/refs/heads/main/logo_smaller_trans.png" alt="Your photo">
-    <h1>Your Name</h1>
-    <p>Software Developer • Your City</p>
+    <h1>Chase Skouge</h1>
+    <p>Journalist • Chicago</p>
     <div class="links">
-      <a class="linkedin" href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-      <a class="github"   href="https://github.com/yourusername">GitHub</a>
-      <a class="website"  href="https://yourwebsite.com">Portfolio</a>
-      <a class="email"    href="mailto:you@example.com">Email Me</a>
+      <a class="substack"  href="https://theenvscireview.substack.com">Substack</a>
+      <a class="linkedin" href="https://www.linkedin.com/in/cskouge/">LinkedIn</a>
+      <a class="bluesky"   href="https://bsky.app/profile/envirochaz.bsky.social">Bluesky</a>
+      <a class="email"    href="mailto:chase@tesreport.org">Email Me</a>
     </div>
   </div>
 </body>
