@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name — Digital Card</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #667eea;
+      margin-bottom: 16px;
+    }
+    .card h1 { font-size: 1.5rem; margin-bottom: 4px; }
+    .card p  { color: #666; margin-bottom: 24px; }
+    .links { display: flex; flex-direction: column; gap: 10px; }
+    .links a {
+      display: block;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+    .links a.linkedin  { background: #0a66c2; color: white; }
+    .links a.github    { background: #24292e; color: white; }
+    .links a.website   { background: #667eea; color: white; }
+    .links a.email     { background: #ea4335; color: white; }
+    .links a:hover     { transform: translateY(-2px); opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/Envirochaz/tesr/refs/heads/main/logo_smaller_trans.png" alt="Your photo">
+    <h1>Your Name</h1>
+    <p>Software Developer • Your City</p>
+    <div class="links">
+      <a class="linkedin" href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      <a class="github"   href="https://github.com/yourusername">GitHub</a>
+      <a class="website"  href="https://yourwebsite.com">Portfolio</a>
+      <a class="email"    href="mailto:you@example.com">Email Me</a>
+    </div>
+  </div>
+</body>
+</html>
